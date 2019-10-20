@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace ExpenseApi
 {
@@ -24,7 +25,10 @@ namespace ExpenseApi
             opt.UseInMemoryDatabase("ExpenseDb"));
            
             services.AddControllers();
-            
+            services.AddSwaggerGen(c=>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo{ Title="Expense Api", Version="v1"});
+            });
             services.AddDbContext<ExpenseContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ExpsenseContext")));
         }
@@ -41,6 +45,12 @@ namespace ExpenseApi
             app.UseStaticFiles();
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(s=>
+            {
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Expense Api v1");
+            });
 
             app.UseRouting();
 

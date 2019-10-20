@@ -109,3 +109,13 @@ C:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp
 C:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\freerider\source\repos\Expense_CareeBiz\ExpenseApi\obj\Debug\netcoreapp3.0\ExpenseApi.MvcApplicationPartsAssemblyInfo.cs

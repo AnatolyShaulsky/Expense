@@ -33,16 +33,21 @@
     <h1>Careebiz Expense</h1>
     <h3>Add</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-date" placeholder="New expense">
+        <div style="display:block;">
+            <input type="datetime" id="add-date" placeholder="Date">
+            <input type="number" id="add-amount" placeholder="Value">
+            <input type="text" id="add-reason" placeholder="Reason">
+        </div>
         <input type="submit" value="Add">
     </form>
 
-    <div id="spoiler">
+    <div id="spoiler">s
         <h3>Edit</h3>
         <form class="my-form">
             <input type="hidden" id="edit-id">
             <input type="datetime" id="edit-date">
             <input type="text" id="edit-value">
+            <input type="text" id="edit-vat">
             <input type="text" id="edit-reason">
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
@@ -51,7 +56,7 @@
 
     <p id="counter"></p>
 
-    <table>
+    <table style="Width:100%">
         <tr>
             <th>Date</th>
             <th>VAT</th>
@@ -66,4 +71,5 @@
             crossorigin="anonymous"></script>
     <script src="site.js"></script>
 </body>
+
 </html>
