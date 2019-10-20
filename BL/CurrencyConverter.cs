@@ -42,9 +42,9 @@ namespace ExpenseApi.BL
       {
         if(!string.IsNullOrWhiteSpace(amountStr))   
         {
-          if(amountStr.Contains(currency, StringComparison.InvariantCulture))
+          if(amountStr.Contains(currency, StringComparison.CurrentCultureIgnoreCase))
           {
-            string [] amountArr = amountStr.Split(currency, StringSplitOptions.RemoveEmptyEntries);
+            string [] amountArr = amountStr.ToUpper().Split(currency, StringSplitOptions.RemoveEmptyEntries);
             if(amountArr.Length ==1)
             {
               decimal amount;
